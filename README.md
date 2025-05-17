@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date:
+## Date: 09/04/2025
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -24,11 +24,139 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-
+```
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Time Table</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+        <img src="/static/logo.png" border="2" height="80px" width="600px">
+        <h1><font color="red">CHADNRAPRIYADHARSHINI C 212223240019</font></h1>
+        <div class="table1">
+        <h2>SUBJECTS</h2>
+            <table border="1" class="table1">
+                <tr bgcolor="#3cb371">
+                    <th>S.No</th>
+                    <th>Subject</th>
+                    <th>Credit</th>
+                    <th>Faculty</th>
+                </tr>
+                <tr bgcolor="#dcdcdc">
+                    <td>1.</td>
+                    <td>19AI414 - Fundamentals Of Web Application Development</td>
+                    <td>5</td>
+                    <td>Jaashika</td>
+                </tr>
+                <tr bgcolor="#dcdcdc">
+                    <td>2.</td>
+                    <td>19AM401 - Time Series Analysis And Its Forecasting</td>
+                    <td>4</td>
+                    <td>Sathish Babu</td>
+                </tr>
+                <tr bgcolor="#dcdcdc">
+                    <td>3.</td>
+                    <td>19CS408 - Software Engineering</td>
+                    <td>4</td>
+                    <td>Ravindar</td>
+                </tr>
+                <tr bgcolor="#dcdcdc">
+                    <td>4.</td>
+                    <td>19CS407 - Theory Of Computation</td>
+                    <td>3</td>
+                    <td>Sunitha</td>
+                </tr>
+                <tr bgcolor="#dcdcdc">
+                    <td>5.</td>
+                    <td>19AI403 - Introduction to Data Science</td>
+                    <td>3</td>
+                    <td>Varalakshmi</td>
+                </tr>
+                <tr bgcolor="#dcdcdc">
+                    <td>6.</td>
+                    <td>19AI305 - Advanced C Programming</td>
+                    <td>3</td>
+                    <td>Renuga Devi</td>
+                </tr>
+                <tr bgcolor="#dcdcdc">
+                    <td>7.</td>
+                    <td>19EE305 - Basic Electrical,Electronics and Measurement Engineering</td>
+                    <td>4</td>
+                    <td>Nandhini</td>
+                </tr>
+                <tr bgcolor="#dcdcdc">
+                    <td>8.</td>
+                    <td>19EY710 - Quantitative Ability I</td>
+                    <td>1</td>
+                    <td>Ezhilarasan</td>
+                </tr>
+            </table>
+        </div>
+        <div class="table2">
+        <h2>TIME TABLE</h2>
+            <table border="1">
+                <tr bgcolor="#3cb371">
+                    <th>DAY</th>
+                    <th>08:00 AM t0 10:00 AM</th>
+                    <th>10:00 AM to 12:00 AM</th>
+                    <th>01:00 PM to 03:00 PM</th>
+                    <th>03:00 PM to 04:00 PM</th>
+                </tr>
+                <tr bgcolor="#dcdcdc">
+                    <th bgcolor="#3cb371">MONDAY</td>
+                    <td>No class</td>
+                    <td>Fundamentals Of Web Application Development</td>
+                    <td>Advanced C Programming</td>
+                    <td>No class</td>
+                </tr>
+                <tr bgcolor="#dcdcdc">
+                    <th bgcolor="#3cb371">TUESDAY</td>
+                    <td>Time Series Analysis And Its Forecasting</td>
+                    <td>Software Engineering</td>
+                    <td>Theory of Computation</td>
+                    <td>Basic Electrical,Electronics and Measurement Engineering</td>
+                </tr>
+                <tr bgcolor="#dcdcdc">
+                    <th bgcolor="#3cb371">WEDNESDAY</th>
+                    <td>No class</td>
+                    <td>Fundamentals Of Web Application Development</td>
+                    <td>Mentor Meet</td>
+                    <td>Introduction to Data Science</td>
+                </tr>
+                <tr bgcolor="#dcdcdc">
+                    <th bgcolor="#3cb371">THURSDAY</th>
+                    <td>No class</td>
+                    <td>Software Engineering</td>
+                    <td>Quantitative Ability I</td>
+                    <td>Basic Electrical,Electronics and Measurement Engineering</td>
+                </tr>
+                <tr bgcolor="#dcdcdc">
+                    <th bgcolor="#3cb371">FRIDAY</th>
+                    <td>No class</td>
+                    <td>Theory Computation</td>
+                    <td>No class</td>
+                    <td>No class</td>
+                </tr>
+                <tr bgcolor="#dcdcdc">
+                    <th bgcolor="#3cb371">SATURDAY</th>
+                    <td>No class</td>
+                    <td>Introduction to Data Science</td>
+                    <td>Advanced C Programming</td>
+                    <td>Time Series Analysis And Its Forecasting</td>
+                </tr>
+            </table>
+        </div>
+        </center>
+    </body>
+</html>
+```
 
 ## OUTPUT
 
-INCLUDE YOUR OUTPUT IMAGE
+![alt text](<output .png>)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
